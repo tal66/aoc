@@ -75,10 +75,3 @@ def to_record(item: str):
 # aoc2_1(bag, s1) # 2149
 # aoc2_2(bag, e1) # 2286
 # aoc2_2(bag, s1) # 71274
-
-
-def testing():
-    # assert aoc1_2("15nine1") == 11
-    pass
-
-# testing()
