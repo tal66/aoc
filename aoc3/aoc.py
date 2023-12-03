@@ -51,7 +51,7 @@ def aoc_1(input):
                 # print(curr_num_str)
 
     print(sum)
-
+    return sum
 
 
 def aoc_2(input):
@@ -140,29 +140,32 @@ def is_num_near_symbol(lines, i, j):
     len_line = len(lines[i])
 
     # prev line
-    if i > 0:
-        if is_symbol(lines[i - 1][j]):
-            return True
-        if j > 0 and is_symbol(lines[i - 1][j - 1]):
-            return True
-        if j < len_line - 1 and is_symbol(lines[i - 1][j + 1]):
-            return True
+    if i > 0 and is_num_in_adj_line(lines[i - 1], j):
+        return True
 
     # next line
-    if i < len_line - 1:
-        if is_symbol(lines[i + 1][j]):
-            return True
-        if j > 0 and is_symbol(lines[i + 1][j - 1]):
-            return True
-        if j < len_line - 1 and is_symbol(lines[i + 1][j + 1]):
-            return True
+    if i < len_line - 1 and is_num_in_adj_line(lines[i + 1], j):
+        return True
 
     # same line
-    if j > 0 and is_symbol(lines[i][j - 1]):
+    line = lines[i]
+    if j > 0 and is_symbol(line[j - 1]):
         return True
-    if j < len_line - 1 and is_symbol(lines[i][j + 1]):
+    if j < len_line - 1 and is_symbol(line[j + 1]):
         return True
 
+    return False
+
+
+def is_num_in_adj_line(line, j):
+    len_line = len(line)
+
+    if is_symbol(line[j]):
+        return True
+    if j > 0 and is_symbol(line[j - 1]):
+        return True
+    if j < len_line - 1 and is_symbol(line[j + 1]):
+        return True
     return False
 
 
@@ -174,8 +177,8 @@ def is_symbol(c: str):
     return True
 
 
-# aoc_1(e1) # 4361
-# aoc_1(s1)  # 530849
+assert aoc_1(e1) == 4361
+assert aoc_1(s1) == 530849
 
 assert aoc_2(e1) == 467835
 assert aoc_2(s1) == 84900879
