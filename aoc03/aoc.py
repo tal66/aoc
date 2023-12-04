@@ -1,4 +1,4 @@
-from aoc3.aoc_input import s1, s2
+from aoc03.aoc_input import s1, s2
 
 # any number adjacent to a symbol, even diagonally,
 # is a "part number" and should be included
@@ -23,7 +23,7 @@ def aoc_1(input):
         curr_num_str = ""
         curr_flag = False
 
-        # print
+        ## print
         # if i > 0:
         #     print(lines[i - 1])
         # print(lines[i])
@@ -182,11 +182,3 @@ assert aoc_1(s1) == 530849
 
 assert aoc_2(e1) == 467835
 assert aoc_2(s1) == 84900879
-
-
-#################
-
-def testing():
-    pass
-
-# testing()

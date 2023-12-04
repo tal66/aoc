@@ -1,4 +1,4 @@
-from aoc2.aoc_input import s1, s2
+from aoc02.aoc_input import s1, s2
 
 
 e1 = """Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green

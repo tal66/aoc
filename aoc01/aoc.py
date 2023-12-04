@@ -1,4 +1,4 @@
-from aoc1.aoc_input import s, s1
+from aoc01.aoc_input import s, s1
 
 def aoc1_1(s: str) -> int:
     sum = 0
