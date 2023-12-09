@@ -79,7 +79,7 @@ def aoc_1(text_input):
 
     maps = parse_maps(text_input)
 
-    result = 1000000000000000000000000000000000
+    result = 1 << 40
     for s in seeds:
         curr_seed = s
         print(f"curr_seed: {curr_seed}")
@@ -255,7 +255,7 @@ def init_seeds(text_input):
 assert aoc_2(e1) == 46
 print()
 
-aoc_2(s1)  # 60568880
+assert aoc_2(s1) == 60568880
 
 e3 = """seeds: 5 7
 

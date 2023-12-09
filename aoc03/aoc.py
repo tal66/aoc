@@ -17,22 +17,15 @@ e1 = """467..114..
 def aoc_1(input):
     sum = 0
     lines = input.split("\n")
-    # print(lines)
 
     for i in range(len(lines)):
         curr_num_str = ""
         curr_flag = False
 
-        ## print
-        # if i > 0:
-        #     print(lines[i - 1])
-        # print(lines[i])
-        # if i < len(lines) - 1:
-        #     print(lines[i + 1])
-
-        for j in range(len(lines[i])):
-            if lines[i][j].isdigit():
-                curr_num_str += lines[i][j]
+        line = lines[i]
+        for j in range(len(line)):
+            if line[j].isdigit():
+                curr_num_str += line[j]
                 if is_num_near_symbol(lines, i, j):
                     # print(f"{lines[i][j]} {i} {j}")
                     curr_flag = True
@@ -40,7 +33,6 @@ def aoc_1(input):
                 if curr_flag:
                     if not curr_num_str == "":
                         sum += int(curr_num_str)
-                        # print(curr_num_str)
 
                 curr_flag = False
                 curr_num_str = ""
@@ -78,7 +70,6 @@ def gear_ratio(lines, i, j):
     c = get_adjacent_same_line(lines[i], j)
 
     num_list = a + b + c
-    # print(num_list)
     if len(num_list) != 2:
         return 0
 
