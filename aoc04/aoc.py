@@ -56,7 +56,7 @@ def aoc_2(input):
 
         # sum += (row_sum * copies[idx])
 
-    result = sum([int(n) for n in copies])
+    result = sum(copies)
     print(result)
     return result
 

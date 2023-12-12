@@ -78,7 +78,7 @@ def get_circle(lines, start):
     nodes = visit(lines, start, pos, [])
 
     c = len(nodes)
-    if c == -1:
+    if c < 3:
         print("no circle")
         return []
 
