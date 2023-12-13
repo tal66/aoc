@@ -49,20 +49,20 @@ def aoc_1(text_input):
     return result
 
 
-def calculate(lines):
-    r = row_ref(lines)
-    if r > 0:
-        return r * 100
-
-    c = row_ref(transpose(lines))
-    return c
-
-
 def row_ref(lines):  # return reflect row num
     for i in range(1, len(lines)):
         if one_row_ref(lines, i):
             return i
     return -1
+
+
+def calculate(lines, ref_func=row_ref):
+    r = ref_func(lines)
+    if r > 0:
+        return r * 100
+
+    c = ref_func(transpose(lines))
+    return c
 
 
 def one_row_ref(lines, i) -> bool:  # around row i
@@ -87,30 +87,10 @@ def aoc_2(text_input):
     items = parse(text_input)
     result = 0
     for line_group in items:
-        result += s_calculate(line_group)
+        result += calculate(line_group, row_ref_d)
 
     print(f"result: {result}")
     return result
-
-
-def s_calculate(lines):
-    # rows
-    for i in range(len(lines)):
-        r = row_ref_d(lines)
-        if r > 0:
-            # print(f"r {r}")
-            return r * 100
-
-    # cols
-    lines_t = transpose(lines)
-    for i in range(len(lines_t)):
-        r = row_ref_d(lines_t)
-        if r > 0:
-            # paint(lines_t)
-            # print(f"c {r}")
-            return r
-
-    exit(1)
 
 
 def row_ref_d(lines):
