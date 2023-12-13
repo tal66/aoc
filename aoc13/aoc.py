@@ -96,7 +96,7 @@ def aoc_2(text_input):
 def s_calculate(lines):
     # rows
     for i in range(len(lines)):
-        r = row_ref_d(lines, i)
+        r = row_ref_d(lines)
         if r > 0:
             # print(f"r {r}")
             return r * 100
@@ -104,7 +104,7 @@ def s_calculate(lines):
     # cols
     lines_t = transpose(lines)
     for i in range(len(lines_t)):
-        r = row_ref_d(lines_t, i)
+        r = row_ref_d(lines_t)
         if r > 0:
             # paint(lines_t)
             # print(f"c {r}")
@@ -113,17 +113,14 @@ def s_calculate(lines):
     exit(1)
 
 
-def row_ref_d(lines, include_idx):
+def row_ref_d(lines):
     for i in range(1, len(lines)):
-        dist = abs(i - include_idx)
-        if i + dist >= len(lines) or i - dist < 0:
-            continue
         if around_row_count_d(lines, i) == 1:
             return i
     return -1
 
 
-def around_row_count_d(lines, i) -> int:  # around row i. true if 1 diff
+def around_row_count_d(lines, i) -> int:
     diff_count = 0
     up = i - 1
     down = i
@@ -162,4 +159,4 @@ e3 = """....#..
 assert aoc_2(e1) == 400
 assert aoc_2(e2) == 100
 assert aoc_2(e3) == 6
-aoc_2(s1)  # 31947
+assert aoc_2(s1) == 31947
