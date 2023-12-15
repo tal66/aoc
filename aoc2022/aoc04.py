@@ -13,11 +13,7 @@ def aoc_1(text_input):
     result = 0
 
     for line in lines:
-        split = line.split(",")
-        a = split[0].split("-")
-        b = split[1].split("-")
-        a = [int(x) for x in a]
-        b = [int(x) for x in b]
+        a, b = pairs(line)
 
         if a[0] <= b[0] and b[1] <= a[1]:
             result += 1
@@ -28,16 +24,21 @@ def aoc_1(text_input):
     return result
 
 
+def pairs(line):
+    split = line.split(",")
+    a = split[0].split("-")
+    b = split[1].split("-")
+    a = [int(x) for x in a]
+    b = [int(x) for x in b]
+    return a, b
+
+
 def aoc_2(text_input):
     lines = text_input.splitlines()
     result = 0
 
     for line in lines:
-        split = line.split(",")
-        a = split[0].split("-")
-        b = split[1].split("-")
-        a = [int(x) for x in a]
-        b = [int(x) for x in b]
+        a, b = pairs(line)
 
         if a[0] <= b[0] <= a[1] or a[0] <= b[1] <= a[1]:
             result += 1
@@ -48,8 +49,8 @@ def aoc_2(text_input):
     return result
 
 
-aoc_1(e1)  # 2
-aoc_1(s4)  # 562
+assert aoc_1(e1) == 2
+assert aoc_1(s4) == 562
 
 assert aoc_2(e1) == 4
 aoc_2(s4) # 924
