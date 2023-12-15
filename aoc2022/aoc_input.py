@@ -1,5 +1,3113 @@
 
+s9 = """U 1
+L 1
+R 2
+L 1
+D 2
+R 1
+U 2
+R 1
+U 1
+R 2
+D 2
+L 1
+R 1
+D 2
+R 1
+L 1
+R 1
+D 1
+U 1
+R 1
+L 1
+R 2
+U 1
+R 1
+D 2
+L 2
+U 1
+R 1
+D 1
+L 1
+R 1
+L 2
+D 1
+U 1
+D 2
+R 2
+D 2
+R 2
+D 2
+R 2
+U 1
+L 2
+R 2
+D 2
+L 2
+U 2
+R 1
+L 1
+U 1
+R 1
+D 1
+R 1
+L 1
+R 1
+D 2
+L 2
+U 1
+R 1
+L 1
+R 1
+U 2
+D 2
+U 2
+L 1
+U 2
+L 1
+R 2
+U 2
+D 1
+L 1
+R 1
+L 2
+U 1
+D 2
+R 2
+U 2
+R 1
+L 1
+U 2
+R 2
+L 1
+R 2
+D 1
+U 2
+D 2
+R 2
+L 1
+R 1
+U 2
+D 2
+U 2
+D 1
+U 1
+R 2
+D 1
+R 1
+L 1
+D 2
+L 2
+U 2
+R 2
+U 1
+R 2
+U 1
+D 1
+R 2
+U 1
+R 1
+U 2
+R 2
+D 2
+L 2
+D 3
+R 2
+U 2
+R 2
+U 2
+L 3
+U 1
+L 1
+R 3
+D 2
+R 2
+U 1
+L 2
+D 2
+L 3
+U 3
+D 2
+R 3
+U 3
+R 2
+D 2
+U 3
+L 1
+U 2
+R 2
+L 1
+D 3
+U 1
+R 3
+L 2
+D 1
+U 2
+L 3
+R 3
+U 3
+L 1
+D 1
+R 3
+D 3
+R 1
+U 2
+R 3
+L 2
+R 1
+U 2
+L 3
+D 1
+R 3
+U 2
+D 2
+R 2
+D 3
+L 3
+D 1
+L 2
+D 1
+R 2
+L 1
+D 2
+U 1
+D 3
+U 1
+R 1
+U 1
+R 3
+L 3
+U 2
+D 3
+R 3
+U 1
+L 1
+R 1
+U 3
+L 2
+U 2
+D 3
+L 2
+D 1
+R 2
+D 2
+L 1
+R 2
+U 1
+D 3
+R 3
+D 2
+R 3
+L 3
+R 3
+D 1
+U 1
+R 1
+U 2
+D 2
+L 2
+D 3
+R 2
+D 3
+U 2
+L 2
+R 1
+U 3
+L 1
+D 1
+U 1
+D 2
+U 1
+L 3
+R 2
+D 1
+L 3
+U 1
+R 3
+D 2
+U 4
+D 1
+L 4
+R 2
+L 2
+R 2
+U 4
+R 1
+U 3
+L 2
+U 2
+R 3
+L 3
+D 3
+R 4
+D 4
+R 3
+D 1
+L 4
+D 4
+U 3
+D 3
+L 4
+R 4
+L 2
+R 3
+L 4
+D 3
+L 3
+U 1
+R 2
+U 1
+L 3
+U 4
+D 1
+L 2
+U 2
+L 1
+D 1
+R 2
+L 4
+R 3
+U 4
+R 1
+D 1
+R 1
+U 3
+D 4
+R 1
+U 4
+R 2
+D 2
+U 2
+R 2
+U 4
+L 1
+D 3
+L 4
+D 2
+L 2
+D 2
+U 4
+L 4
+R 1
+D 1
+R 3
+D 3
+L 4
+R 3
+D 2
+R 1
+D 1
+R 1
+U 1
+D 1
+L 1
+D 1
+R 2
+L 3
+D 1
+R 1
+L 4
+D 4
+R 4
+L 3
+D 4
+U 2
+L 1
+D 3
+U 2
+D 1
+R 2
+D 2
+L 2
+U 1
+D 4
+R 3
+U 4
+D 1
+R 3
+U 1
+D 1
+U 1
+R 1
+D 1
+R 3
+U 4
+R 4
+U 2
+L 1
+U 1
+L 3
+R 5
+D 2
+U 1
+R 3
+D 3
+R 1
+D 1
+L 5
+R 1
+D 1
+R 2
+U 3
+R 2
+L 4
+U 3
+D 4
+U 1
+R 3
+D 1
+R 2
+L 3
+R 3
+U 2
+L 5
+U 3
+R 4
+D 4
+R 2
+D 3
+R 2
+U 4
+L 5
+R 2
+L 3
+U 4
+L 5
+R 3
+D 3
+U 4
+R 2
+U 5
+R 2
+U 5
+D 1
+L 2
+D 2
+U 3
+R 3
+L 3
+U 3
+D 5
+R 4
+D 4
+L 4
+D 5
+R 1
+U 4
+L 2
+R 1
+D 3
+L 2
+R 2
+L 3
+R 2
+L 2
+D 3
+U 5
+D 5
+L 3
+R 5
+U 3
+L 3
+D 5
+L 4
+D 1
+L 2
+D 4
+U 4
+D 1
+R 1
+L 4
+R 3
+U 2
+L 3
+U 4
+D 4
+R 2
+D 4
+U 2
+D 4
+U 2
+L 4
+D 5
+L 4
+R 1
+L 2
+R 3
+D 2
+R 5
+L 1
+U 5
+R 1
+D 5
+L 1
+D 2
+U 5
+D 2
+U 1
+D 6
+U 2
+L 5
+D 2
+R 1
+D 1
+R 1
+D 5
+U 1
+D 5
+R 4
+L 3
+R 4
+U 1
+D 5
+U 5
+L 4
+U 5
+L 4
+U 5
+R 2
+L 6
+D 4
+L 1
+U 1
+R 6
+D 4
+L 1
+D 2
+R 2
+U 5
+R 5
+U 4
+L 5
+R 4
+D 4
+U 4
+D 1
+R 2
+L 5
+U 3
+R 1
+L 3
+U 6
+R 5
+L 2
+D 4
+R 4
+U 5
+R 2
+U 6
+L 4
+U 6
+R 2
+L 6
+D 5
+R 6
+U 1
+L 3
+U 4
+R 2
+L 5
+D 4
+L 6
+U 1
+D 1
+R 2
+D 5
+L 1
+R 5
+L 3
+U 5
+D 4
+U 5
+D 4
+U 2
+R 4
+L 3
+D 4
+L 5
+R 6
+U 6
+D 5
+U 2
+R 4
+D 5
+L 5
+R 3
+L 3
+D 3
+U 6
+L 1
+D 3
+R 2
+L 3
+R 2
+L 6
+D 1
+L 6
+D 4
+L 6
+R 4
+D 5
+L 3
+U 6
+R 5
+U 4
+D 1
+L 5
+U 1
+D 2
+U 2
+D 5
+R 7
+L 3
+U 5
+R 4
+L 5
+U 1
+R 2
+D 6
+L 6
+D 2
+L 1
+D 6
+U 2
+D 2
+U 2
+D 6
+L 1
+R 6
+U 7
+D 2
+L 3
+R 3
+U 6
+D 3
+R 4
+U 3
+L 7
+D 3
+U 6
+D 2
+U 1
+R 4
+L 1
+R 3
+U 5
+D 6
+R 2
+L 4
+D 5
+R 6
+L 5
+D 1
+R 3
+D 2
+L 7
+U 1
+R 5
+D 6
+U 6
+D 4
+U 6
+D 2
+L 2
+U 7
+D 1
+R 3
+U 3
+R 1
+L 6
+D 7
+L 4
+R 1
+D 7
+L 2
+U 6
+D 2
+R 6
+D 7
+U 7
+R 5
+L 1
+U 3
+R 5
+D 4
+U 2
+D 2
+L 6
+D 2
+U 7
+R 4
+L 7
+U 4
+D 6
+U 2
+D 6
+L 3
+U 5
+R 5
+D 4
+R 1
+D 6
+U 6
+R 3
+L 2
+U 1
+R 7
+D 4
+L 2
+D 4
+L 5
+U 3
+R 6
+L 3
+D 7
+R 7
+L 1
+U 4
+L 6
+R 7
+U 3
+R 1
+D 8
+L 3
+D 3
+U 3
+R 2
+L 6
+U 4
+L 2
+D 7
+L 5
+D 1
+R 3
+U 2
+L 6
+R 2
+U 1
+D 6
+U 4
+D 1
+U 8
+D 7
+R 3
+L 3
+R 1
+D 1
+R 5
+L 5
+R 6
+U 4
+R 4
+U 3
+R 4
+L 6
+R 4
+U 6
+L 5
+U 8
+L 1
+D 1
+L 4
+U 8
+R 2
+U 7
+L 4
+U 7
+L 7
+D 5
+U 1
+R 7
+U 7
+D 6
+R 5
+U 5
+D 2
+R 8
+L 1
+D 3
+L 5
+D 5
+R 1
+U 1
+R 4
+D 3
+R 1
+U 4
+R 8
+D 3
+L 4
+R 7
+L 4
+R 7
+L 7
+R 1
+L 1
+D 2
+L 6
+R 7
+D 5
+U 7
+L 8
+U 1
+L 8
+U 2
+R 6
+L 4
+U 1
+R 1
+U 3
+L 6
+D 7
+L 3
+D 2
+R 4
+U 5
+D 1
+U 2
+D 6
+L 6
+U 4
+D 1
+L 2
+R 4
+U 2
+L 1
+R 5
+L 3
+R 5
+U 7
+R 4
+L 4
+R 2
+D 4
+L 1
+R 2
+D 1
+L 2
+R 2
+U 2
+R 5
+L 7
+U 3
+R 1
+D 5
+U 7
+D 8
+R 7
+D 5
+U 2
+L 5
+D 4
+L 2
+D 8
+U 7
+D 3
+U 4
+L 9
+D 2
+U 7
+R 7
+D 9
+U 3
+R 2
+L 7
+U 5
+L 9
+D 5
+R 6
+D 5
+R 1
+D 1
+R 5
+D 3
+U 2
+R 5
+D 8
+U 4
+R 9
+U 5
+L 2
+U 2
+R 5
+D 9
+U 2
+D 3
+R 4
+D 5
+U 7
+L 2
+U 8
+R 7
+L 1
+U 4
+D 6
+R 8
+U 3
+D 4
+U 1
+R 5
+U 8
+D 9
+U 5
+D 9
+R 7
+D 3
+L 1
+D 4
+R 8
+D 8
+U 5
+D 7
+L 5
+U 1
+D 6
+L 7
+D 1
+R 1
+U 2
+L 3
+R 4
+L 1
+D 7
+L 3
+U 9
+R 1
+U 9
+L 7
+R 1
+U 5
+L 4
+U 8
+D 9
+U 3
+D 9
+R 5
+U 8
+L 9
+U 9
+D 7
+R 7
+L 2
+U 9
+R 7
+U 10
+D 7
+L 1
+D 2
+R 4
+D 9
+L 4
+D 7
+R 9
+U 1
+D 4
+U 8
+L 9
+R 9
+D 3
+R 2
+D 7
+U 2
+D 7
+U 1
+R 3
+D 1
+U 10
+D 5
+U 6
+D 1
+R 5
+D 6
+U 1
+R 6
+U 2
+D 5
+U 8
+L 9
+D 1
+U 9
+D 6
+L 10
+R 4
+D 1
+L 6
+R 1
+L 3
+D 4
+R 9
+D 7
+R 4
+D 8
+R 8
+L 5
+U 7
+R 3
+U 5
+D 4
+L 5
+D 7
+L 10
+U 3
+D 9
+R 7
+U 4
+D 3
+R 7
+U 5
+D 10
+R 1
+L 7
+U 7
+R 5
+U 4
+L 7
+D 6
+R 1
+D 1
+R 4
+L 3
+R 4
+D 3
+L 7
+D 7
+L 6
+R 4
+L 1
+D 2
+U 4
+D 8
+L 8
+R 1
+U 4
+D 1
+U 2
+L 1
+R 4
+U 7
+D 9
+U 4
+D 10
+U 5
+R 3
+D 6
+U 7
+D 6
+L 7
+R 7
+L 7
+R 6
+D 4
+U 4
+L 7
+U 9
+L 6
+D 2
+L 2
+U 10
+L 4
+U 3
+D 3
+L 5
+U 10
+D 10
+R 8
+D 2
+L 6
+D 9
+R 7
+L 8
+R 3
+U 1
+D 4
+U 2
+R 4
+U 5
+D 8
+U 6
+L 4
+U 9
+R 5
+U 8
+L 11
+D 11
+U 6
+D 4
+U 3
+R 7
+L 8
+R 5
+D 5
+U 5
+R 1
+U 10
+L 4
+D 6
+U 11
+R 3
+D 10
+U 10
+L 7
+R 11
+U 9
+L 10
+U 10
+L 11
+D 2
+L 9
+D 3
+L 11
+D 2
+U 1
+D 5
+L 6
+U 3
+D 10
+R 8
+U 10
+R 9
+L 1
+D 6
+U 6
+D 6
+L 8
+R 3
+U 1
+D 2
+L 6
+R 10
+U 7
+D 2
+L 5
+D 10
+U 5
+D 9
+R 4
+L 9
+D 6
+U 9
+R 5
+L 9
+U 1
+D 2
+R 2
+L 5
+R 4
+D 8
+U 8
+D 11
+L 4
+D 3
+U 1
+L 9
+R 8
+L 10
+R 8
+L 10
+U 10
+D 5
+R 11
+U 2
+R 8
+U 1
+L 6
+U 5
+D 2
+U 2
+R 3
+L 4
+R 1
+D 6
+L 6
+U 5
+R 1
+L 6
+D 1
+R 5
+L 2
+R 11
+D 5
+L 6
+R 1
+D 11
+U 9
+D 12
+U 8
+R 7
+L 6
+R 9
+U 7
+D 2
+R 5
+D 12
+L 10
+D 7
+L 5
+U 7
+D 9
+R 7
+U 8
+D 3
+U 8
+D 5
+U 1
+L 10
+U 7
+L 2
+R 5
+L 2
+U 1
+L 8
+R 2
+D 8
+R 9
+D 9
+R 11
+D 4
+R 3
+U 2
+D 9
+R 12
+U 11
+D 8
+R 6
+D 9
+U 3
+L 5
+R 1
+U 4
+R 4
+U 10
+R 11
+U 5
+R 9
+U 1
+R 5
+D 3
+R 8
+U 3
+R 6
+U 4
+R 3
+D 2
+L 2
+U 7
+L 2
+U 12
+D 10
+L 7
+U 6
+R 7
+U 1
+L 11
+U 12
+R 12
+L 12
+D 10
+R 9
+U 12
+L 6
+U 2
+L 7
+U 11
+R 7
+U 6
+L 3
+U 3
+D 1
+U 11
+R 1
+D 4
+R 10
+L 10
+R 6
+D 11
+R 1
+D 5
+L 1
+R 1
+L 4
+R 7
+U 12
+R 6
+L 10
+D 12
+L 4
+R 8
+U 5
+L 7
+R 10
+D 13
+U 7
+D 1
+R 1
+D 9
+R 3
+D 1
+L 4
+D 3
+R 5
+U 9
+R 11
+L 4
+R 1
+D 11
+L 2
+R 4
+D 7
+R 3
+U 2
+D 6
+R 2
+L 13
+R 5
+L 4
+R 4
+U 13
+R 3
+U 4
+R 3
+D 1
+L 3
+U 6
+L 8
+U 5
+R 4
+D 10
+L 3
+U 10
+R 11
+D 11
+U 2
+D 2
+R 4
+U 2
+D 1
+R 10
+U 5
+L 9
+U 11
+R 10
+D 4
+L 1
+U 5
+R 4
+U 6
+R 9
+D 12
+L 10
+R 5
+L 5
+D 9
+U 2
+R 7
+U 2
+R 5
+L 8
+D 5
+R 1
+D 5
+R 8
+U 11
+R 7
+L 13
+U 10
+D 3
+U 1
+D 2
+L 1
+D 12
+L 9
+D 12
+R 5
+U 8
+R 6
+L 6
+R 5
+U 7
+L 10
+D 5
+U 11
+D 4
+U 8
+R 7
+U 8
+R 2
+L 10
+D 5
+L 10
+D 3
+U 13
+D 11
+U 3
+R 10
+U 9
+D 7
+U 6
+R 1
+U 9
+R 11
+D 7
+R 6
+U 9
+R 6
+U 12
+D 6
+R 13
+L 14
+U 10
+R 9
+L 13
+R 7
+D 9
+U 12
+L 8
+D 5
+R 3
+U 5
+R 10
+L 4
+D 5
+R 4
+D 2
+L 12
+R 8
+D 9
+R 5
+D 7
+U 5
+D 11
+L 13
+D 12
+R 2
+U 5
+L 1
+U 2
+L 6
+U 9
+D 10
+L 3
+D 8
+R 12
+U 9
+R 9
+U 9
+R 8
+U 6
+L 10
+U 5
+R 9
+D 2
+U 12
+D 3
+R 12
+L 10
+D 5
+L 7
+D 9
+L 5
+R 7
+D 8
+U 10
+L 11
+R 9
+L 13
+R 8
+U 9
+D 8
+U 9
+R 10
+L 4
+U 1
+D 10
+L 1
+D 4
+L 1
+U 13
+R 8
+L 3
+D 5
+R 5
+U 4
+R 5
+U 6
+L 14
+R 5
+U 8
+L 7
+D 7
+R 4
+U 4
+L 14
+U 7
+R 14
+D 3
+U 10
+L 7
+R 5
+L 5
+R 15
+L 3
+D 15
+L 6
+R 3
+L 10
+U 7
+L 2
+R 7
+L 1
+R 8
+U 12
+D 6
+U 11
+D 12
+U 9
+R 2
+D 14
+L 4
+U 9
+D 15
+R 8
+D 9
+L 9
+D 14
+U 5
+R 14
+D 15
+R 6
+L 3
+U 13
+R 13
+U 5
+D 14
+L 2
+D 12
+U 6
+R 5
+U 5
+L 6
+R 5
+D 12
+U 9
+L 7
+D 15
+R 5
+U 7
+D 1
+R 2
+L 11
+U 8
+R 3
+D 3
+U 6
+D 15
+U 2
+D 11
+R 6
+U 9
+D 7
+U 3
+L 13
+U 3
+L 15
+R 10
+L 6
+D 15
+L 3
+U 5
+R 13
+D 13
+L 5
+R 8
+D 2
+R 8
+L 9
+R 7
+L 5
+U 3
+D 11
+R 13
+U 15
+D 5
+R 4
+U 11
+R 14
+L 1
+U 6
+L 13
+R 14
+L 12
+D 5
+R 3
+D 4
+R 5
+U 8
+R 11
+D 8
+U 5
+R 9
+D 8
+R 4
+U 5
+L 7
+D 6
+U 4
+L 2
+D 15
+U 5
+R 16
+L 4
+R 1
+D 12
+L 2
+R 6
+D 6
+R 14
+U 6
+L 14
+R 12
+D 8
+R 1
+U 2
+R 3
+D 7
+R 4
+L 2
+U 6
+L 1
+U 7
+L 12
+R 11
+D 13
+U 16
+R 15
+D 14
+U 13
+D 15
+R 11
+U 12
+R 5
+D 8
+R 2
+L 14
+R 10
+L 16
+U 10
+D 13
+L 11
+U 10
+R 5
+D 7
+L 15
+D 12
+L 4
+R 16
+U 8
+R 8
+L 7
+U 9
+R 7
+U 16
+R 2
+U 5
+R 5
+D 4
+L 7
+D 5
+L 4
+U 13
+D 9
+R 2
+D 2
+U 5
+L 3
+D 16
+R 13
+L 10
+R 7
+L 9
+R 3
+L 5
+D 10
+L 10
+R 2
+L 13
+R 5
+L 11
+R 16
+U 12
+R 11
+D 12
+R 7
+L 2
+U 12
+D 11
+U 12
+L 1
+R 6
+U 3
+L 3
+D 1
+R 5
+U 6
+L 15
+R 8
+D 5
+L 16
+D 13
+R 15
+D 14
+R 4
+U 15
+R 5
+L 8
+D 12
+U 11
+D 13
+L 9
+D 13
+L 7
+U 9
+R 15
+U 13
+D 16
+R 6
+L 8
+R 7
+U 4
+R 10
+U 7
+D 10
+U 8
+D 7
+L 17
+R 7
+L 8
+D 5
+L 5
+U 15
+D 6
+L 1
+D 2
+R 17
+L 6
+D 15
+R 4
+L 2
+R 10
+D 4
+R 6
+D 11
+U 1
+L 17
+D 11
+U 6
+D 17
+R 15
+L 13
+D 9
+R 12
+U 13
+R 2
+L 12
+D 1
+R 17
+U 13
+D 15
+U 7
+R 8
+D 6
+R 8
+D 16
+U 16
+D 2
+U 1
+R 7
+U 15
+L 7
+R 12
+U 10
+D 4
+R 17
+D 11
+R 12
+D 8
+L 3
+R 3
+D 5
+R 17
+L 15
+U 11
+R 1
+L 4
+R 6
+D 6
+U 2
+L 1
+D 2
+U 1
+D 11
+L 1
+R 11
+D 7
+U 16
+L 14
+U 5
+R 13
+D 9
+U 17
+D 3
+R 12
+U 16
+R 10
+L 17
+D 5
+U 16
+D 12
+L 2
+R 16
+L 17
+U 4
+R 15
+D 4
+L 11
+U 3
+R 17
+D 8
+R 7
+D 15
+R 14
+D 6
+R 5
+L 1
+D 5
+L 11
+D 5
+U 13
+L 13
+U 8
+D 8
+L 13
+D 1
+L 10
+U 14
+R 7
+L 11
+D 4
+R 16
+D 3
+L 9
+R 3
+D 4
+L 4
+U 2
+R 13
+D 18
+U 15
+D 7
+L 18
+U 3
+D 17
+U 13
+R 9
+L 8
+R 9
+U 16
+R 14
+D 17
+L 16
+R 3
+U 4
+D 1
+R 8
+D 14
+L 14
+U 17
+L 16
+R 15
+D 9
+U 13
+R 14
+U 9
+D 13
+R 2
+L 3
+D 8
+U 5
+R 1
+L 5
+R 4
+U 8
+L 7
+U 5
+R 11
+D 17
+L 4
+U 3
+R 1
+U 18
+D 1
+U 6
+R 2
+D 16
+U 15
+D 8
+L 13
+R 2
+U 16
+L 9
+D 1
+U 9
+R 5
+L 16
+D 2
+L 2
+R 8
+D 17
+R 13
+U 5
+R 6
+U 2
+L 12
+R 2
+D 14
+R 14
+L 11
+R 1
+L 9
+D 18
+L 4
+U 4
+D 15
+L 14
+R 15
+U 6
+D 3
+R 15
+L 12
+U 3
+D 12
+U 13
+L 6
+U 17
+D 6
+L 10
+R 16
+L 7
+U 2
+D 1
+R 10
+U 11
+R 1
+U 19
+D 5
+L 11
+D 14
+L 17
+U 16
+L 13
+R 4
+L 16
+D 10
+L 4
+D 9
+R 19
+L 19
+R 12
+L 12
+D 8
+L 6
+D 14
+U 7
+D 13
+U 18
+D 13
+U 6
+D 6
+R 18
+U 18
+D 15
+L 14
+R 7
+D 11
+R 4
+L 14
+R 5
+D 4
+L 12
+D 16
+R 17
+U 15
+L 9
+U 10
+R 7
+D 10
+L 3
+U 15
+L 1
+D 15
+U 1
+D 12
+L 4
+D 10
+U 6
+R 6
+L 11
+D 5
+R 1
+D 11
+U 16
+L 16
+R 19
+U 8
+R 11
+D 17
+L 19
+R 6
+U 7
+R 2
+D 9
+R 11
+D 17
+U 17
+D 4
+R 8
+D 6
+U 10
+R 3
+L 17
+D 5
+R 19
+U 1
+L 5
+U 5
+D 6
+U 6
+L 18
+R 18
+L 4
+R 12
+D 14
+L 17
+R 8
+L 13
+R 6
+L 14
+D 3
+R 13
+L 16
+D 14
+U 6
+D 6"""
 
+s8 = """222112212213012301211134200002032424301142102231553514443201341400212230204230401120330131220022210
+102112111222233101031402012403201222213455312422432144422311112420034421043440034112120031011001111
+102122223023130331231203443334122242323322135341452245355543411453442102413422113120120032330210022
+110001231100011332234413013213045445233212225343233154553335222544334133331211032334110100233102201
+112120312023213203233203304022134355314211535351534544145442243315233432344112114414123111203320020
+011002313231332320303110000042412533123545342432545135533235211212352231130344444401342320130320121
+202200003023134141242312215422124511134354234431153434535452422114151522515014320031112011030221212
+113102102331342324141114531234352232235552513522232636554232221113521412245544143301410240122300333
+211033000313424140310442544541544534324266444536336436655636514121154553344222201421134014231222302
+332011030332301044222122531531145414243656663555635264222563536433553554235415534133020002100133303
+003200210344344312222345212454341556565524245554625246646642233535613232411111322202404003021131033
+212202212302402424325552233413344566554423363522454624625334634462244412142314412223233004123103222
+231133111414111002334425521322446233535222326464242534552643634365465232413221523242312003123132201
+313223120340002432131523132325234665452663343265346463224425352244233432414425145251402321040022332
+110231011423200225543222433636555256543455255323675332254645322645563353642135152132431112220340303
+013033041334034232133125136663662262646656343763365537633776266646642565425431553252154042003222320
+211124212402311241341432552546235523455675766654367677563446366265563452623544411131322320324104112
+311012141030452455113536433334564634756367376436373765454656664536225465334623141141513523202242330
+012301101445223125154545353334243457447565444477775644753467675333526255343363252124213413334120103
+233321342044534154326365623624635757737336333365467477364576355456334523455422644531423214142224224
+301402311421451141543665323222675333544545373365757767436436377564663672643455325544345555343040001
+304423021253551124566534255363675576646675576466557455437737444737747537646443223341251522522230001
+402303113531252112565332322437444444733673535744665564777363553757753536545453435361315251231022201
+343113132243234232442552423677343665646745755454558875768678444345656475473455643666552254215432201
+001131034112131524452326657653354765338567784768566647744666875357433357473443522344225243313244213
+122023311433442633553443245556444633487484788585787474756876774566456663465434656446221314315234003
+210402415552526566563532756754334548465444477566878777656684755778854636554443444552623255421510333
+012001214432256464324225465635565588677746855755476557887465446855587337665333246334333115555314412
+222132543313562322224657563736748886877557564745856544774584766446584737675675655426522652442214320
+423214351334263626364676677744385788876488856679865769577554548558576845634376735645243412241314440
+200352424121452235643454473333744776478657758589797689577768775555766757575457666524463265134132113
+333315323435235263224363656558587456864875686898957675666699844768877857436437433545365222234341541
+440534535556542636375566743576488664766587899757997995986595998576846675543444535754225244215134554
+024231424242352653653366736648748655879977997589965595769786599767867475484663336562353663434352152
+343213443126654446367347436548467666598677556987577797968667957998466875566535756646625564625421223
+305442424346225553455343444677558786657855987787595987859767769565548776784763364346444544514354521
+044542513463542544536576766646765867855955675958686896585987667655786864488874467573643532225314434
+333323555525534363367466378746456755999597668978976886986995578868978575457547765434534344531342414
+132144512424624543767433787687869887957589699699889779999966965978785846878667767435452426244313414
+433315554346265355436574786758868587559859868886977896966698966958756685885573763453344346541151314
+413513516336543645563337757744486999985966876969996998987779796796957876687654446366443562255155552
+053533316545342553357448558745679998895697868968686986668766695755859555675684345446663325326241315
+452255213256224764677634885884887668896987769886798989898796878696976888585775655464573535262323413
+053251253265242337365677865455955659889688896796678767879969869899867794878748765545564452542212253
+432555255435523454456458675766766597799799989798787877998969799858879977447488835336742526665511541
+241254425566644576536545645478755987567969698987978987986867699878998779657567765374554632255352231
+212251243454532574336574754465559565989998678999989897797679989965986789447484777735556645354241432
+351554453346366564744644787789767968867866998889898777887886689868676957588465675646434432325641155
+233511144565355357637675467645758888989986767888998798799777986999866999584486736777445526634415411
+552551233443243573655777577789585687789669879789877787877797698876776579788877444673437534324525435
+143232566345523665757754565545667867777877897788988787899896686998995587547878766774555656636534135
+433541553363523355656668675576556586969876788988999899779867798965678555468486575354456535425515555
+344212454446337547774468664578575566899789897799779877978888689668755668747448866467365322263243551
+552455432524262376773384654645576767866796977978879898778678866967889686688766434443675265336615251
+135535155623522753744547875577557687669676967888999988997966866665885787456748875435366562424534531
+215231124322426336745754475847579989586768769897789779979667996797575879668644656454763644425121422
+212353152225262656674688558455679556678778878999989978897988687695977855845875545365732546546221153
+342215156352366476447768686848995677666966898699678876998899788557885988654556543633764333352552233
+321515146536623334447468787664857689889778679897689767666666876959657687557868737443466335436245511
+013113244334363455557346868585476788777899669889889787896976986999798856665844344437522465564541413
+255143115565563633554666548747467856858787976799799896788898657557689855656457337356756442362123313
+031335324654646343353765754757559786988898799879766777869766957768678785744646763447522433365222442
+355114345566265574654466845444746655698758868679677967667965686587997467558857755676353563261512215
+211333325622665265467373444887576597859865989789968666967785965758665846744764735736522262624221433
+203525523354545545357477756777858468677997556567877689887986699968965485487544534377623343312412411
+035353154465262346653634674485667468675788965676899758666759666989765546648457665765463456343215245
+443532324422363343764533655655465475697667556876899886655786789655544677465744335565363522535323222
+023221222543624565343363346774576887896898699755676558575985686565448575865345566522423236451422212
+340212523155644543675734665446864675489858766958766655767576857748765787847634454442644324452422442
+340432344521322563564356377754466658556459785655679599676758974745687864733753553535332232533455131
+423215444314465433363574467737846756465458875587578798587755447654584446665777433425655623221415333
+231241142215323244526775377664464744577555454676959887594554756855744536775664443534325342321451404
+041413415453153535346557674463478885886466466478646768858584468688855347653754554436233543155525231
+124222414122553624346345437665675777668785565746566685776576878464743736477344643425242212132152233
+431120425412133263655256663746445748465757577585866545754667484666835737774574546346652434524454213
+332043443511242235543633465473473675845445877745757888777748556755354763764335524334264445423240213
+110122354411324336322632634335645635764775666784878647588876775364547734567432433353213554524544241
+404321421523113114622636256564577663536565667777575445785888764456777343552445536242253322122412030
+434030213332131144533432644476553675447575534754446688644447737555467767665365336555321252231243214
+334212124143441352445224356446437377466337354564437476736756465563366773665422354564145454110014014
+023203310131523434232255525444447564635374747633465767673754476337356662443425256514522323244112441
+101120041133443314423543562233264736667766476557757433763676347364333644664555433355235131413120024
+011012441204314121121546323525643344445465476574645343546646554766764455636662533425443342404340220
+120142204403244355135312262656523644334637455757667465354467643636263363553436554344424440004042021
+010024440443243142133431335563452363655567477576345335375375467332245326522442143115352523013434101
+221004131030132523224521244363343325363355755366544745635363662456454464634235115135451040111124021
+221132142310414233535533233653455643535365654435673454636364553636652426332435251441310343014132131
+100303413021411121224513435162254455525254445364236246246445454523356224411311133322303211413333203
+101123123243233425552423352333355654363465545332323556635563566444222565424212444124103140200212222
+113232221042340022452124431511116363243453446254253642443442525545623322551453455154131341124213102
+023002112204241124205223211223435354464434654566424625466423255554312543425225144413300342321320033
+300302313044222022000442431444142544322536453645445345252346423512232111334143531243041000123213120
+200011033010243420404315154435115543241326325336453346442553521441225132213223512024314024301112320
+112010033200133002013304454543415322425441251224536444233214423545234414225110400142441232331102223
+021112220332003000034123214453541414533524435224552515112152545215413542331013134004230400322020232
+021102300011120141433401232445214332421554341255254252534554543451451351441303324220233023133322000
+201221330223300010443300144044452432145223434443422235541121234255244513242121233314221213203000111
+202100221111033202310310014120314313424245224554332212352354242541454431213130404221010021102320022
+210120011112003123423244304300221413244525315153255555432535313221224211034403142213223310310310011"""
+
+s7 = """$ cd /
+$ ls
+dir cdnhnmcb
+dir dmccnsqv
+290229 dsm
+dir gsszlj
+dir hmw
+dir jhmrn
+dir ncb
+dir npclt
+dir rvvjbz
+$ cd cdnhnmcb
+$ ls
+170937 fsjwz.css
+281758 jmfcfs.gsq
+109017 jwwv.zlz
+295735 tsrqvpbq
+$ cd ..
+$ cd dmccnsqv
+$ ls
+273438 fsjwz.css
+dir jtntzqfd
+dir tqmbq
+211769 vmgpwrbz.nbp
+205895 wqz.qcg
+$ cd jtntzqfd
+$ ls
+4635 wqfvvzth.vdz
+$ cd ..
+$ cd tqmbq
+$ ls
+dir bnvspstf
+22264 bqcvlnw.pmq
+dir hwv
+200690 jlwjsbw.bzf
+dir npclt
+243708 qvnbwvt.sbv
+157861 tsrqvpbq.mtf
+$ cd bnvspstf
+$ ls
+46133 mwvz.vwh
+289236 rjcp.gqj
+$ cd ..
+$ cd hwv
+$ ls
+dir tsrqvpbq
+$ cd tsrqvpbq
+$ ls
+292872 rvvjbz.mgh
+$ cd ..
+$ cd ..
+$ cd npclt
+$ ls
+191646 bhllwpr
+26548 jlwjsbw.bzf
+214302 nnqz
+74637 szdjtbt.tmw
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd gsszlj
+$ ls
+dir bjvqcfwc
+dir dfzhdhs
+179837 dsm.hzf
+112354 gnrzhsw.jcf
+175236 jlwjsbw.bzf
+dir mfnllhfw
+dir nwvcgb
+dir rvvjbz
+dir vcvmq
+$ cd bjvqcfwc
+$ ls
+125387 rvvjbz
+$ cd ..
+$ cd dfzhdhs
+$ ls
+218291 jlwjsbw.bzf
+dir jsmjbfg
+dir rvvjbz
+272548 zdrtjvzj.rlt
+196309 ztdcrnl.hjj
+$ cd jsmjbfg
+$ ls
+72259 bmszdt
+242641 fsjwz.css
+109294 mwtlz
+149525 sgngzrnn.mww
+$ cd ..
+$ cd rvvjbz
+$ ls
+175613 rqjmjhrb
+$ cd ..
+$ cd ..
+$ cd mfnllhfw
+$ ls
+119986 fcjrv.dvh
+dir gwjgjljj
+157962 jjjbv.fdp
+dir mwttp
+30246 vhzdjv.fqh
+197554 zdrtjvzj.rlt
+288875 zhdn.dtj
+$ cd gwjgjljj
+$ ls
+237890 mlmmfh
+dir ncjzqll
+10935 zdrtjvzj.rlt
+$ cd ncjzqll
+$ ls
+152092 gwwh.ttt
+$ cd ..
+$ cd ..
+$ cd mwttp
+$ ls
+217929 fsjwz.css
+$ cd ..
+$ cd ..
+$ cd nwvcgb
+$ ls
+131410 fsjwz.css
+dir nqrdmvjm
+82487 qwbg.hcb
+dir tsrqvpbq
+123617 tsrqvpbq.wqw
+$ cd nqrdmvjm
+$ ls
+dir btjwzz
+dir dsm
+dir fcrsj
+141465 fsjwz.css
+133916 ztdcrnl.hjj
+$ cd btjwzz
+$ ls
+dir nqrdmvjm
+dir tsrqvpbq
+150003 zdrtjvzj.rlt
+$ cd nqrdmvjm
+$ ls
+dir dsm
+160109 gzv.wzw
+33187 mcgmjn.ftg
+dir pbgdcwd
+167821 ztdcrnl.hjj
+$ cd dsm
+$ ls
+84979 gwwh.ttt
+dir rvvjbz
+$ cd rvvjbz
+$ ls
+189309 btvjmhp.dwm
+$ cd ..
+$ cd ..
+$ cd pbgdcwd
+$ ls
+240743 rzgbfcg.dzg
+$ cd ..
+$ cd ..
+$ cd tsrqvpbq
+$ ls
+284223 mmhvjn
+188341 tnv.rcs
+271396 zdrtjvzj.rlt
+$ cd ..
+$ cd ..
+$ cd dsm
+$ ls
+128966 ptf
+$ cd ..
+$ cd fcrsj
+$ ls
+261786 qljq.nrv
+$ cd ..
+$ cd ..
+$ cd tsrqvpbq
+$ ls
+57089 fsjwz.css
+208087 ttfhpzll
+$ cd ..
+$ cd ..
+$ cd rvvjbz
+$ ls
+dir ldglv
+$ cd ldglv
+$ ls
+39389 wjwzdg.ldb
+$ cd ..
+$ cd ..
+$ cd vcvmq
+$ ls
+dir jzgd
+246541 lmfdrnnz.dcc
+169613 npclt
+264902 npclt.jsl
+dir pwzbvvwz
+82651 rch.bsc
+223282 vddwtwz.pqf
+dir wnb
+$ cd jzgd
+$ ls
+91717 dqmhdw.mjr
+69771 ztdcrnl.hjj
+$ cd ..
+$ cd pwzbvvwz
+$ ls
+dir cdmfv
+dir fvqjbd
+dir nhvhhs
+dir npclt
+dir rgdb
+$ cd cdmfv
+$ ls
+172054 dsm.qjw
+$ cd ..
+$ cd fvqjbd
+$ ls
+212067 hclqv
+dir tcjsbn
+$ cd tcjsbn
+$ ls
+40576 wbzwnc.pqf
+13447 wlrjhcf.jtg
+$ cd ..
+$ cd ..
+$ cd nhvhhs
+$ ls
+92810 bgfgrzs
+$ cd ..
+$ cd npclt
+$ ls
+dir dcs
+dir tsrqvpbq
+$ cd dcs
+$ ls
+274856 nrqwg
+$ cd ..
+$ cd tsrqvpbq
+$ ls
+144678 jlwjsbw.bzf
+dir nqrdmvjm
+163728 qwddbflc.gjp
+$ cd nqrdmvjm
+$ ls
+122069 btpm.vhg
+105752 psrmw
+149744 rvvjbz.bnn
+126434 ztdcrnl.hjj
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd rgdb
+$ ls
+75645 blzt
+dir clz
+dir ddmbzz
+dir hrl
+280472 jgmd.htc
+217770 nqwgl.qqb
+dir qjcrf
+$ cd clz
+$ ls
+dir fshcptjq
+125496 lhgsdhl.gss
+291857 pfbjptg.lqh
+78923 rdhmmqml.lrw
+$ cd fshcptjq
+$ ls
+157704 btf
+66314 qcpjsfr
+225592 rsftvgr
+$ cd ..
+$ cd ..
+$ cd ddmbzz
+$ ls
+217731 cbc.dmn
+16389 cdwwz
+256395 gwwh.ttt
+233481 rvsslvbh
+dir rvvjbz
+dir zgc
+$ cd rvvjbz
+$ ls
+dir zrwtdlzz
+$ cd zrwtdlzz
+$ ls
+21488 gdgl.vbc
+$ cd ..
+$ cd ..
+$ cd zgc
+$ ls
+222107 gwwh.ttt
+35382 npclt.fpp
+$ cd ..
+$ cd ..
+$ cd hrl
+$ ls
+dir rvvjbz
+$ cd rvvjbz
+$ ls
+65335 dgn.mgd
+$ cd ..
+$ cd ..
+$ cd qjcrf
+$ ls
+dir fjrdgbwh
+$ cd fjrdgbwh
+$ ls
+143960 wvnzt.wvq
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd wnb
+$ ls
+66543 jlwjsbw.bzf
+dir nqrdmvjm
+dir pfwptjtl
+3047 sbdlzbt.hlj
+$ cd nqrdmvjm
+$ ls
+dir cqn
+dir mnmbmb
+182573 pmw.pdl
+dir rvvjbz
+92911 ztdcrnl.hjj
+$ cd cqn
+$ ls
+38563 npclt.pcl
+14353 sdlmtzzv
+52230 ztdcrnl.hjj
+$ cd ..
+$ cd mnmbmb
+$ ls
+212337 fsjwz.css
+24700 gwwh.ttt
+10243 npclt
+dir nqrdmvjm
+238617 rvvjbz
+$ cd nqrdmvjm
+$ ls
+19026 plrvst.bpd
+$ cd ..
+$ cd ..
+$ cd rvvjbz
+$ ls
+23115 fsjwz.css
+260656 jlwjsbw.bzf
+113097 zdrtjvzj.rlt
+$ cd ..
+$ cd ..
+$ cd pfwptjtl
+$ ls
+134817 jlwjsbw.bzf
+80522 npclt
+254529 nqrdmvjm.mbc
+35322 ztdcrnl.hjj
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd hmw
+$ ls
+dir cfc
+dir cmbtwjqm
+dir dsm
+81077 dzsj.bsl
+dir gzgr
+dir jrdhssrz
+dir npclt
+dir tsrqvpbq
+dir vssgzdw
+dir wngccwdr
+5928 wrpd.zwq
+113540 ztdcrnl.hjj
+$ cd cfc
+$ ls
+159334 npclt
+212665 ztdcrnl.hjj
+$ cd ..
+$ cd cmbtwjqm
+$ ls
+dir vzftvhhc
+$ cd vzftvhhc
+$ ls
+86763 jlwjsbw.bzf
+dir nbj
+dir qzbf
+$ cd nbj
+$ ls
+63776 jlwjsbw.bzf
+$ cd ..
+$ cd qzbf
+$ ls
+189850 rtszjp.zhq
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd dsm
+$ ls
+dir bddwfjhv
+258304 fltv
+4285 jlwjsbw.bzf
+dir nqrdmvjm
+dir rvvjbz
+258902 zdrtjvzj.rlt
+$ cd bddwfjhv
+$ ls
+201408 zdrtjvzj.rlt
+$ cd ..
+$ cd nqrdmvjm
+$ ls
+250981 npclt.dnd
+$ cd ..
+$ cd rvvjbz
+$ ls
+181444 npclt.msj
+146533 thzv.jbn
+$ cd ..
+$ cd ..
+$ cd gzgr
+$ ls
+dir brmzzz
+dir dsm
+$ cd brmzzz
+$ ls
+40671 jlwjsbw.bzf
+$ cd ..
+$ cd dsm
+$ ls
+53299 bmdpw
+dir npclt
+223542 qdrlng
+dir thjnrtq
+$ cd npclt
+$ ls
+30938 bdldl
+36847 gfwbhj.nvh
+159051 qjpggrst.czp
+233569 vwpr.drg
+dir wwln
+$ cd wwln
+$ ls
+153489 fsjwz.css
+196950 lzcrjs
+$ cd ..
+$ cd ..
+$ cd thjnrtq
+$ ls
+30861 fsjwz.css
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd jrdhssrz
+$ ls
+194556 bqcn.ctq
+dir gnhc
+148157 gwwh.ttt
+dir jcqcjbj
+245407 jlwjsbw.bzf
+248457 lmvh
+$ cd gnhc
+$ ls
+183841 fsjwz.css
+128648 hzcpmz
+154895 mvznln
+193794 ztdcrnl.hjj
+$ cd ..
+$ cd jcqcjbj
+$ ls
+266176 cbbfjsp
+dir dsm
+195555 sfq
+$ cd dsm
+$ ls
+13098 bjhsqfpp.rvw
+dir grpp
+dir nqb
+$ cd grpp
+$ ls
+259797 jvw.psl
+32317 sfm.twr
+$ cd ..
+$ cd nqb
+$ ls
+82426 rvvjbz.fdm
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd npclt
+$ ls
+dir tqzmprzr
+$ cd tqzmprzr
+$ ls
+278120 dsm.hqd
+$ cd ..
+$ cd ..
+$ cd tsrqvpbq
+$ ls
+dir dqbnbl
+dir dsm
+dir lsglr
+213028 rvvjbz.rvh
+112991 tsrqvpbq.ptw
+$ cd dqbnbl
+$ ls
+dir dhzs
+281375 dsm
+121452 gwwh.ttt
+dir mbc
+dir npclt
+211213 tsrqvpbq.zsz
+125518 zdrtjvzj.rlt
+$ cd dhzs
+$ ls
+110840 gwwh.ttt
+197645 tsrqvpbq
+$ cd ..
+$ cd mbc
+$ ls
+224503 drsrlls.ctp
+dir dzm
+65461 jlwjsbw.bzf
+dir nqrdmvjm
+137158 nqrdmvjm.vtq
+dir rvvjbz
+126868 rwrzljq
+$ cd dzm
+$ ls
+279593 fsjwz.css
+13111 gwwh.ttt
+205453 hchlb.bdn
+277556 jlwjsbw.bzf
+dir jvd
+dir nqrdmvjm
+dir prqlqh
+dir rhdhhfs
+dir rvvjbz
+$ cd jvd
+$ ls
+76776 fsjwz.css
+85847 wqdzvs.vwf
+$ cd ..
+$ cd nqrdmvjm
+$ ls
+40200 npclt.fcq
+$ cd ..
+$ cd prqlqh
+$ ls
+267371 fsjwz.css
+$ cd ..
+$ cd rhdhhfs
+$ ls
+51224 dsm.qln
+$ cd ..
+$ cd rvvjbz
+$ ls
+dir npclt
+dir wdhgmfb
+60599 wjwgrq
+$ cd npclt
+$ ls
+138588 bdqtq.slq
+221322 rjmbd.pdj
+279540 ztdcrnl.hjj
+$ cd ..
+$ cd wdhgmfb
+$ ls
+98271 jcg.pwz
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd nqrdmvjm
+$ ls
+221950 swnsstls.zcl
+7947 tqwhs
+$ cd ..
+$ cd rvvjbz
+$ ls
+272797 zdrtjvzj.rlt
+$ cd ..
+$ cd ..
+$ cd npclt
+$ ls
+294537 bqlgnwwf.qqf
+285887 flzmnmft
+3041 fsjwz.css
+dir npclt
+dir rvvjbz
+235966 zhwvl
+$ cd npclt
+$ ls
+96669 sjcr.qmc
+$ cd ..
+$ cd rvvjbz
+$ ls
+240351 fsjwz.css
+112539 rvvjbz.tlc
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd dsm
+$ ls
+dir dpbsq
+dir lmvjnd
+dir vjnb
+$ cd dpbsq
+$ ls
+dir vczm
+$ cd vczm
+$ ls
+252709 jfzq.fvc
+$ cd ..
+$ cd ..
+$ cd lmvjnd
+$ ls
+20118 rsp.njm
+$ cd ..
+$ cd vjnb
+$ ls
+192558 vvggw.ljj
+$ cd ..
+$ cd ..
+$ cd lsglr
+$ ls
+222728 qvp
+296718 ztdcrnl.hjj
+$ cd ..
+$ cd ..
+$ cd vssgzdw
+$ ls
+dir smfhgcv
+$ cd smfhgcv
+$ ls
+16174 dtpgsvfv.csm
+43403 lhbqdpv
+dir ndh
+52985 pcj.csh
+81157 vwsrt
+278111 zdrtjvzj.rlt
+$ cd ndh
+$ ls
+80287 jlwjsbw.bzf
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd wngccwdr
+$ ls
+6088 ppjnslg
+$ cd ..
+$ cd ..
+$ cd jhmrn
+$ ls
+dir qwqhhbth
+$ cd qwqhhbth
+$ ls
+dir ggfmlp
+dir qgflbldg
+$ cd ggfmlp
+$ ls
+35739 dsm
+38351 jlwjsbw.bzf
+$ cd ..
+$ cd qgflbldg
+$ ls
+dir pbw
+dir rvvjbz
+dir tqppnqmv
+$ cd pbw
+$ ls
+dir nqrdmvjm
+5912 nqrdmvjm.qvj
+$ cd nqrdmvjm
+$ ls
+dir tnd
+$ cd tnd
+$ ls
+dir lwsvwsl
+$ cd lwsvwsl
+$ ls
+150503 jlwjsbw.bzf
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd rvvjbz
+$ ls
+dir dmrff
+dir ssnbl
+dir zgrgt
+$ cd dmrff
+$ ls
+dir vmmzmf
+$ cd vmmzmf
+$ ls
+211105 tsrqvpbq
+$ cd ..
+$ cd ..
+$ cd ssnbl
+$ ls
+246210 mlj.qbv
+$ cd ..
+$ cd zgrgt
+$ ls
+207409 lnvqlhsj
+$ cd ..
+$ cd ..
+$ cd tqppnqmv
+$ ls
+59007 gwwh.ttt
+123705 jlwjsbw.bzf
+277423 rvvjbz.hbn
+170157 tbs
+dir ztg
+$ cd ztg
+$ ls
+8432 fsjwz.css
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd ncb
+$ ls
+30859 dsm
+74337 jvp.jwl
+dir lgvwz
+150310 lhl.rtq
+$ cd lgvwz
+$ ls
+105307 fftbgl.tnh
+69432 npclt.sdq
+49765 zdrtjvzj.rlt
+214149 ztdcrnl.hjj
+$ cd ..
+$ cd ..
+$ cd npclt
+$ ls
+dir dsm
+dir rvvjbz
+dir trr
+$ cd dsm
+$ ls
+dir bcccgpl
+dir cvddqch
+210401 fsjwz.css
+96482 nqrdmvjm.tgr
+dir nwctzch
+29453 zdrtjvzj.rlt
+$ cd bcccgpl
+$ ls
+237918 dshtjdcs
+dir mtrcfbf
+dir tgt
+dir tsrqvpbq
+99779 wpfsbnh.nbh
+257112 ztdcrnl.hjj
+$ cd mtrcfbf
+$ ls
+dir hms
+49756 tsrqvpbq
+$ cd hms
+$ ls
+185755 zdrtjvzj.rlt
+$ cd ..
+$ cd ..
+$ cd tgt
+$ ls
+dir dsm
+dir jmfdpdf
+256858 zdrtjvzj.rlt
+$ cd dsm
+$ ls
+71528 dsm.rvc
+$ cd ..
+$ cd jmfdpdf
+$ ls
+231263 hgsvvrqt.vbp
+$ cd ..
+$ cd ..
+$ cd tsrqvpbq
+$ ls
+218774 clhqvp
+$ cd ..
+$ cd ..
+$ cd cvddqch
+$ ls
+144164 fsjwz.css
+dir gfszp
+60880 nqrdmvjm
+222198 vhhtgj
+$ cd gfszp
+$ ls
+127091 fsjwz.css
+$ cd ..
+$ cd ..
+$ cd nwctzch
+$ ls
+258292 rfvvc
+$ cd ..
+$ cd ..
+$ cd rvvjbz
+$ ls
+dir cnv
+dir dtpswgq
+dir ggdhw
+97538 jsjlq
+218535 nqrdmvjm.fhj
+134022 tsrqvpbq.mbs
+51273 zdrtjvzj.rlt
+$ cd cnv
+$ ls
+208016 gzvmv.dfg
+$ cd ..
+$ cd dtpswgq
+$ ls
+dir jfbgfts
+$ cd jfbgfts
+$ ls
+273657 bbtbqv
+77349 dsm.rnc
+dir nqrdmvjm
+208448 zdrtjvzj.rlt
+$ cd nqrdmvjm
+$ ls
+dir bjdrqnt
+dir msqc
+dir npclt
+dir rsms
+dir vzhdtv
+$ cd bjdrqnt
+$ ls
+103077 tph.bpz
+264222 wmvzc
+$ cd ..
+$ cd msqc
+$ ls
+72288 ztdcrnl.hjj
+$ cd ..
+$ cd npclt
+$ ls
+dir tfbzdm
+$ cd tfbzdm
+$ ls
+dir nqrdmvjm
+35970 nqrdmvjm.gwj
+54275 rvvjbz.pvs
+dir wwrsrmn
+179618 ztdcrnl.hjj
+$ cd nqrdmvjm
+$ ls
+dir gljgj
+$ cd gljgj
+$ ls
+135000 gwwh.ttt
+$ cd ..
+$ cd ..
+$ cd wwrsrmn
+$ ls
+17120 npclt.vhz
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd rsms
+$ ls
+198169 fsjwz.css
+$ cd ..
+$ cd vzhdtv
+$ ls
+234619 gwwh.ttt
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd ggdhw
+$ ls
+dir dsm
+dir fmljfpfb
+dir nqrdmvjm
+dir qrhnjrn
+dir vpsqmmp
+$ cd dsm
+$ ls
+185390 rvvjbz.ljl
+70843 scrzhct.shj
+dir zqd
+$ cd zqd
+$ ls
+197478 lrpnc.pqp
+dir nljssvvw
+228126 rfsnv
+dir wzvvggdp
+$ cd nljssvvw
+$ ls
+248489 dwdcnzb.ztq
+$ cd ..
+$ cd wzvvggdp
+$ ls
+40266 jlwjsbw.bzf
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd fmljfpfb
+$ ls
+dir chc
+232964 gwwh.ttt
+283351 jlwjsbw.bzf
+$ cd chc
+$ ls
+273399 cjtznvrq.jcd
+250531 dsm.djs
+dir lgqz
+173885 pmlw.hcb
+273356 swwzbpdm
+7329 wtvs.qrr
+$ cd lgqz
+$ ls
+9432 fst.nlb
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd nqrdmvjm
+$ ls
+129926 zdrtjvzj.rlt
+$ cd ..
+$ cd qrhnjrn
+$ ls
+dir vnvchpr
+dir zchcq
+271220 ztdcrnl.hjj
+$ cd vnvchpr
+$ ls
+257931 rvvjbz
+132252 wtgs.btb
+$ cd ..
+$ cd zchcq
+$ ls
+dir hmf
+215104 sshml
+$ cd hmf
+$ ls
+253334 gbvbmwbf.lhs
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd vpsqmmp
+$ ls
+32455 gwwh.ttt
+170338 rfsvs.dfq
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd trr
+$ ls
+dir bfjwfd
+dir bhrvh
+dir ggfc
+187910 gwwh.ttt
+dir mtqftj
+$ cd bfjwfd
+$ ls
+dir npclt
+dir wqqfszn
+$ cd npclt
+$ ls
+269520 trrcw.jmq
+$ cd ..
+$ cd wqqfszn
+$ ls
+151594 rvvjbz.gvt
+$ cd ..
+$ cd ..
+$ cd bhrvh
+$ ls
+251782 cpbvqrjj
+$ cd ..
+$ cd ggfc
+$ ls
+65357 gwwh.ttt
+dir jqjtwf
+$ cd jqjtwf
+$ ls
+65025 wzrp.pbp
+$ cd ..
+$ cd ..
+$ cd mtqftj
+$ ls
+294942 vtjhwjr.qgc
+88168 wvbnjp.blf
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd rvvjbz
+$ ls
+dir csfp
+141875 dsm
+294580 jlwjsbw.bzf
+dir jqlm
+25928 lqhpn.jrh
+224295 zdrtjvzj.rlt
+113314 zww.ftt
+$ cd csfp
+$ ls
+153717 ztdcrnl.hjj
+$ cd ..
+$ cd jqlm
+$ ls
+163455 jlwjsbw.bzf"""
 
 s6 = """djhjvjggdzznllvvrvggscgscsrrffgvfvllfclcrchhwzhzqqlhqhffsdsmmcffnggcttdpttwpwttjvtjvtvqqctcwcmcsswvwzzlnzlnnvbnbdnngmmhchrcrqqhbhllbtllmppgjjtvjvdjvvpcpjcjjfrfzfzzdvzdvvswvvjzzbpzbzzddbndbbgjbjjvpjpjtjqtjqjcjmcjjrtjrjrqqvtvpvwpprhphrhdrddpdhhfsspddqnqwnntrtnrrthrhtrtwtdttmmnvmnmppswsqwqjqwqbqrqbqdbqdqgdqgqtgqqgzzhpzzwswvwmvwwvvrzznwzzbsbhbfhhvcvwvvrzrgzzfhzhhlthlhqhgqgttlmljmlmqqjddtqtctbblplddnqnzqnnzrzjrrqwrqqcfffbdfffspsqswstspsvppqmppdmppdvvfrfddqhqzqddtjddfqfrfllnjjcnnjzjmzmtmddbvdvzvbzzcjzzffdbdbsswshhrwrrfggpccszzzgdgvvlflwwdbbhqhffngffdfdmdgdhdmhdmdsspssctstdtdmdhhzvvcbbrqqmrmwwjmjqjmqjmjjjrmrmlmmbppmgpgttmptpspmmrttcddtjjspsfsqqbhbbzzgbzzznwzzlddmtdmdgmmlnljlvjjtgjjggmmnnvqnqzzfhzhttvbbprpmpmrmlrmllwmlwmlwwsjjlffbgfggqmggqgvglvvrpvrpvpnpphmhnmhhbbqjbbrrvfrfwflldffzwzccscqsqppctctddqbbmggmccdbdvbdvvpdpdbdsdjsjbbwpwcpcbcbmmzdmmvtvqvpvphhlblwwfmwmvvdhdtdwwlblglhhvfvwwqggrnrttpddtvvwqvqmqhhwnnghhbpbvbnvvdqqrqdqwqppmwpwhppnmnjmnjmjttvhhcgchcssrlrwllpdpndpdtptzppqqpvvtffcwffjppvnnjvvjnnwcwnnhlhjhsjsnjjzfjfsfhsssvttvfvsvpspppwswmswwqmwwzvwzzvtzvvwddqqzhhqpqjjwrwlrrbcbvvqllqjllvzvgvmvhmmsppwvpwphhjnndjjtpjtthzzvrrcwcrczzmqmsssvtstqtrrgtrtvtwtccbwcwrwbbdbgbmmcsmcssvjsjqqsnqqtvvbgbfbdffhjffvnnzpplqppzzfwfrfnfcncqccgjjcffhshrhgrhghvhphccqtcqtccjzccdnncggftgttrppnpptlltztqtjqqvfvqvdvmvmjjgqqrqgrqqcggdvvpcvcjvjnnrjjmbmlbmmqvmqmfmwmpwwnhwdtmvhqfwlbpzjplfhfntjgmvqmmjqpbngpvjvpgzpqwjjwhvjwwplrtjhzmzqmdrppgbrspmctlggmflbjzzfcvvdqlrtvqvwhcpjnmlvfgwrwwtblpqstddnqntnmwsbgjfrbdrlnvqdrnttshjmvpmncmggfdbnndwzmswmdvhmmwtgpfglrzzhwcsgvhnnrrhmnhftvvqfdfrsphzbslgscmwsnrwbvqphhswvpvsbbstvnndclhfhdctlvwrmdgzfcfmjmznqvvqrddmdlqznvcsqsgnpcqqhbdwqntcnqljstqvrzhgvzqdltpwmnpvjmqrpjsfhqvhchjnwjnqpdqbdjqdpqsqhbwwmhfthzbrsjnhncpbjrhgqlzmrzlnvrrfvlrmflcqfmqjzjwscrflgzwtbchfrnvsrrtncvhjbnnmlmmfdjcbmbsmgdtwzwcwnthfbsnrgdfwqjncqsdmfnfqgtcwrhjprlnhvrnpmnnhlwstvqjrsprqhjzszzgfznmgwjqglvfrrwpdbptdrnbbwbzbcbhbtcchmfsgmvnmrbdqhqgmvtfmvpgvjzjpgjbdhcfrfhprgdzrprccnhbmzdfjsgldlgpgdrfhbhtmhdttdsbndgbdfccqhhwhqfmlsfhsbbbmdncrwzcnrdvcmhllfwtrgjpgngzwptnqtggtcjwrptffmsrgdpctsdjtpssngsdqwfsbhdbcqvbdrzlhzlsbbzhqthzhcwsftlhrmhgpfzljgcphjjvhpqjzsfnrztwrhlnlbmgcgmstrbbwclpvdtdpclzlhmmpmmpmppnwjglhwppprlbzbvwqwmpgtvvpgdthnwbtblwpwgvmbcbjwjbczlcmzfwzbqvzsvgcmspvrsblldscqlgghdwzbvhhvgcfwgnqwlngclbjfwrpwtdjvqmzwwjztwdjplhzpzfslbbvfdsnpggwcttzwdlzgqgmrnpnclhrlngtwcwblzdjmpgqvzsvsdmzdwlgcdlccnnlrcvtrvspcsmgmzzvwnlzwtznwtqtdjcnhwrqhqrmvqqhrpdtnsmfrlcgpjcnddsqzcppgrnhvwsdbjvvtmvbjdncpdnmzfswmtvzfbdpqfjvwvqlhptnpdfdnlwfrgstpvvmhsqfgggdrsfgldfzbcjzhqzvfwmzccwjrslhjwlbmrpqgzdfnfbhsmdpzwtqnqldtqvshvlvmlnnmqrqbpwvnhqhtcbfclhrcqlqzhsqplsnbczvrbzqwlfwjdtmstzdbswtrvlpzzlrfvgdmldbwcttztrvsgzjwhhpcrvtgzfzppdlrdwswbnjfqqpqfbcqlzdmjsgjtzmvhdzspwlqpdjnccmbtdhnnhfvwqclbzzgglfgmvvgrccdsbwfmpvqwqrhmdzfhhhgbgjgwmnzmnggfrpspchvzpcmcpsbzgldmgqjqqdcjpwwncwrwjbhgzdbbcmbzbbtvprsjrhfwgsppdrrlzvnmtmwrmmrhtlndvsvjvgqmmttbbnpdhnjhwgrvlrdtpbrtwpwvvpslcqnvnrlhpvgdwnrzjmhwmgvpndtrjlzqpfzfbrsgbzjjqcfgsfwchblzstdflblngtzbrzrrvsczqvfhjjdlffrghgqvqfdtstqlnzllsrnnrtvrzdphbhdfpmhlfncqbdtzjqqcfbzpvgzdcsvvbfdvqrfrncbrwmpdmhnlqdscwnvldzblpzfqcvnbzmmtbmwjbczsjvzmfthfpvjcpwftqcbgjwflfrbrggwnvwndtncljfrdfwqwhfbctpjghfvnjnntnrgbfbmhplgmpfvmgvfqjslgnnrnlgztlstpcjwtlhmwlljcfmptfwsphnlsrjwmgtghgqmsvwvqsmblwpdftbrwjcdlzjmjblghszznqhsnqrcmtccgdwrrlsmwswvrjltqmwsdwvpnzltllhrsdvmrntdhtwwbgrqmrffnqbqrczvzchbgmzwtjtfzwntsnlbwbgrlvqjsqmdnwjqlwrdpnfpggzrjvtrhqdbmmbtfmmblgwtrqccqbjnljqflhgtphvrgrgghgrpbgfgdztsmfwrfflsqmrwbfjwsmpfrnbqjwnwdqwcwzpwbsmngjwfmbwdmnprdjnjbmqgfcbvtcvcthpmnmvvzdzgqqbhtjqfcdvhfzwqgfsbtvnwbzpmmtswfntjjppsswgbfrjbrstltdgbmclmbfvlslghbhnqqbdlzgtctgsfnwvbpzbvnwfbjmbfqcpqqvgrzwcbrwzdbdsjsslcjlmtprntpsdmqldzwqlqztwqtqfqzmrnzbtpqlfnsdwfdgggfvmqmrdqmnffnzcwfzsrqfpvrmsfsrbnpbhnqvdglvglllpggpmwmngrhzwgpdlzrbsvjtqmshhnlzwwftdtqwrqwgbbnczqcwmsvcljqlscftwflhwwhgnqwztfchdzsllrzbhbqwcfztjnqtdmsfnlzlcwzfmtlcgwclzfhhldgrnfjvzthzqzmzvwcrnhpdcwswpddsbwtznwlcwsnfqnqwnntngplwnfgwrcnpvgffwrcrszzdbfvzjmrmlrjwcvdvbglgncjwcnnpdfnwsrzsvzgnjrlqmwhvtdgmpbqmjthmhhmzjhpvnbvrqnlspdbcgshwlnvwpvrbcmvbvcsdmgwtmsthqtcfmllsfwvqcrbmdgqtzjwrg"""
 
