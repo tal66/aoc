@@ -1,3 +1,4 @@
+import inspect
 from collections import namedtuple, deque
 
 from aoc16.aoc_input import s1
@@ -30,26 +31,25 @@ class Beam:
         self.x = x
         self.y = y
         self.curr_direction = curr_direction
-        self.visited = set()
         self.name = name
         self.state = 1
 
     def move(self):
         if self.state == 0:
-            return
+            return None
         symbol = self.get_symbol()
         if not symbol:
             self.shutdown()
-            return
+            return None
 
         next_d = symbol_map[symbol].get(self.curr_direction, "")
         if symbol in [".", "/", "\\"]:
             self.curr_direction = next_d
-            self.move_in_curr_direction()
+            return self.move_in_curr_direction()
         elif symbol in ["-", "|"]:
             if next_d:
                 self.curr_direction = next_d
-                self.move_in_curr_direction()
+                return self.move_in_curr_direction()
             else:
                 self.shutdown()
                 if self.curr_direction in "LR" and symbol == "|":
@@ -58,23 +58,23 @@ class Beam:
                     d1, d2 = ("L", "R")
                 else:
                     print(f"error")
-                    return
+                    return None
                 b1 = Beam(self.x, self.y, curr_direction=d1, name=f"{self.name}{d1}")
                 b2 = Beam(self.x, self.y, curr_direction=d2, name=f"{self.name}{d2}")
                 beams.extend((b1, b2))
-                b1.move()
-                b2.move()
+                return None
 
     def move_in_curr_direction(self):
         if self.get_mem_code() in visited_in_direction:
             self.shutdown()
-            return
+            return None
 
         d = Directions[self.curr_direction]
-        self.visited.add((self.x, self.y))
+        p = (self.x, self.y)
         visited_in_direction.add(self.get_mem_code())
         self.x += d.x
         self.y += d.y
+        return p
 
     def get_mem_code(self):
         return f"{self.x},{self.y},{self.curr_direction}"
@@ -100,22 +100,25 @@ beams = []
 visited_in_direction = set()
 
 
-def aoc_1(text_input, start_beam=Beam(0, 0)):
+def aoc_1(text_input, start_beam=None):
     global grid, beams, visited_in_direction
     lines = text_input.splitlines()
     grid = [[c for c in line] for line in lines]
     beams = []
     visited_in_direction = set()
 
+    if not start_beam:
+        start_beam = Beam(0, 0)
+
     beam = start_beam
     beams.append(beam)
 
     visited = set()
     for i in range(2000):
-        # print(beams)
         for beam in beams:
-            beam.move()
-            visited.update(beam.visited)
+            p = beam.move()
+            if p:
+                visited.add(p)
 
         if len([b for b in beams if not b.state]) == len(beams):
             # print(f"stop after {i}")
@@ -123,9 +126,8 @@ def aoc_1(text_input, start_beam=Beam(0, 0)):
 
     result = len(visited)
 
-    # paint(grid, visited)
-
-    print(result)
+    if inspect.stack()[1][3] != "aoc_2":
+        print(result)
     return result
 
 
@@ -141,25 +143,22 @@ def aoc_2(text_input):
     m, n = len(lines), len(lines[0])
     result = 0
 
-    for j in range(m):
-        r = aoc_1(text_input, start_beam=Beam(0, -j))
-        result = max(result, r)
-        r = aoc_1(text_input, start_beam=Beam(n - 1, -j, curr_direction="L"))
-        result = max(result, r)
+    for j in range(n):
+        r1 = aoc_1(text_input, start_beam=Beam(0, -j))
+        r2 = aoc_1(text_input, start_beam=Beam(m - 1, -j, curr_direction="L"))
+        result = max(result, r1, r2)
 
-    print("\ntrying cols")
     for i in range(m):
-        r = aoc_1(text_input, start_beam=Beam(i, 0, curr_direction="D"))
-        result = max(result, r)
-        r = aoc_1(text_input, start_beam=Beam(i, -(n - 1), curr_direction="U"))
-        result = max(result, r)
+        r1 = aoc_1(text_input, start_beam=Beam(i, 0, curr_direction="D"))
+        r2 = aoc_1(text_input, start_beam=Beam(i, -(n - 1), curr_direction="U"))
+        result = max(result, r1, r2)
 
     print(f"\nresult: {result}")
     return result
 
 
-# assert aoc_1(e1) == 46
-# aoc_1(s1)  # 7870
+assert aoc_1(e1) == 46
+aoc_1(s1)  # 7870
 
-# aoc_2(e1)  # 51
+assert aoc_2(e1) == 51
 aoc_2(s1)  # 8143
