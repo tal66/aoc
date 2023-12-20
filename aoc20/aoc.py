@@ -111,7 +111,7 @@ def aoc_2(text_input):
 
     print(senders_d)
     result = 1
-    for k, v in senders_d.items():
+    for k, v in senders_d.items():  # lcm more correct, but they're primes in my case
         result *= v[0]
 
     print(result)

@@ -76,6 +76,7 @@ def aoc_2(text_input):
     w, _ = text_input.split("\n\n")
     workflows = w.splitlines()
     workflow_d = get_workflows(workflows)
+
     w = "in"
     curr = []
     all_paths = []
@@ -93,8 +94,8 @@ def aoc_2(text_input):
 
 def count_combinations(a):
     d = {k: [1, 4001] for k in "xmsa"}  # [inclusive, exclusive]
-    for i, exp in enumerate(a):
 
+    for i, exp in enumerate(a):
         if "<" in exp:
             k = exp.split("<")[0]
             if "=" in exp:
